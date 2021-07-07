@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="https://material.io/resources/icons/?style=baseline">
+<script src="https://www.youtube.com/iframe_api"></script>
+<div class="contenedor">
+    <div class="top">
+        <div class="dertop">
+            <img class="img1" src="/assets/img/logo.png" alt="" srcset="">
+            <h1>RAMO</h1>
+        </div>
+        <div class="iztop">
+            <div class="ag">
+                <mat-icon>person_outline</mat-icon>
+               </div>
+            
+        </div>
+    </div>
+    <div class="medi">
+        <button mat-button routerLink="/inicio" class="butt">Inicio</button>
+        <button mat-button routerLink="/capaci" class="butt">Capacitaciones</button>
+        <button mat-button routerLink="/comunid" class="butt">Comunidad</button>
+        <button mat-button routerLink="/ayuda" class="butt">Ayuda</button>
+    </div>
+    <div class="bot">
+         <div class="titu">
+            <button mat-button routerLink="/comunid" class="butt">
+                <img class="img1" src="/assets/img/imagen2.png" alt="" srcset="">
+            </button>
+            <h1>Comunidad de aprendizaje</h1>
+         </div>
+         <div class="cont">
+             <div class="foro">
+                <youtube-player 
+                videoId="kb6tSD9n8Xg" 
+                suggestedQuality="highres"
+                [height]="300" 
+                [width]="550" 
+                [startSeconds]="0"
+                [endSeconds]="109">
+              </youtube-player>
+              <h3>Último foro</h3>
+             </div>
+             <div class="iz">
+                <img class="img1" src="/assets/img/foro.png" alt="" srcset="">
+                <h4>Información sobre proximos foros virtuales y presenciales.</h4>
+             </div>
+         </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="https://material.io/resources/icons/?style=baseline">
+<div class="contenedor">
+    <div class="top">
+        <div class="dertop">
+            <img class="img1" src="/assets/img/logo.png" alt="" srcset="">
+            <h1>RAMO</h1>
+        </div>
+        <div class="iztop">
+            <div class="ag">
+                <mat-icon>person_outline</mat-icon>
+               </div>
+            
+        </div>
+    </div>
+    <div class="medi">
+        <button mat-button routerLink="/inicio" class="butt">Inicio</button>
+        <button mat-button routerLink="/capaci" class="butt">Capacitaciones</button>
+        <button mat-button routerLink="/comunid" class="butt">Comunidad</button>
+        <button mat-button routerLink="/ayuda" class="butt">Ayuda</button>
+    </div>
+    <div class="bot">
+         <div class="titu">
+            <button mat-button routerLink="/capaci" class="butt">
+                <img class="img1" src="/assets/img/forma.png" alt="" srcset="">
+            </button>
+            <h1>Formación transversal</h1>
+         </div>
+         <div class="cont">
+            <youtube-player 
+            videoId="eq14ubklyTw" 
+            suggestedQuality="highres"
+            [height]="300" 
+            [width]="550" 
+            [startSeconds]="13"
+            [endSeconds]="58">
+          </youtube-player>
+         </div>
+    </div>
+</div>
+
